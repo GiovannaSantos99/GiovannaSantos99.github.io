@@ -1,1 +1,113 @@
-<h1>Giovanna</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Giovanna Santos</title>    
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">    
+    <!--DEV ICON FONTS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    <!--JAVASCRIPT-->
+    <script src="JS/javascript.js"></script>
+</head>
+<body>
+    
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Giovanna Santos</h2>
+            <img id="bio-img" src="Imagens/foto1.jpg" alt="Giovanna Santos">
+            <p>Olá, meu nome é Giovanna Santos e sou <span class="highlight">Desenvolvedora Front-end.</span></p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+            <ul id="social-container">
+                <li>
+                    <a href="https://www.facebook.com/Giovanna.Santos99/" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/giovanna-santos-90a6381a4/" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/GiovannaSantos99" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:giovanna.santos99@yahoo.com">giovanna.santos99@yahoo.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Giovanna Santos</h1>
+            <p id="title">
+                <span class="highlight">Desenvolvedora Front-end</span>
+            </p>
+
+            <p class="description">
+                Formada pelo curso de Sistemas de Informação pela Universidade Santa Cecília. 
+                Sou apaixonada por tecnologia, inovação e desenvolvimento de estratégias para ajudar pessoas a transformar ideias em experiências digitais.                
+            </p>
+
+            <a href="https://github.com/GiovannaSantos99?tab=repositories" target="_blank" id="btn-projects">
+                <ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span>
+            </a>
+
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="description">Conheça as tecnologias que domino:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i id="t-html" class="devicon-html5-plain colored" onmouseover="titleHtml();" onmouseout="titleOver();"></i>
+                    <i id="t-css" class="devicon-css3-plain colored" onmouseover="titleCSS();" onmouseout="titleOver();"></i>
+                    <i id="t-js" class="devicon-javascript-plain colored" onmouseover="titleJS();" onmouseout="titleOver();"></i>                    
+                </div>
+
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i id="t-php" class="devicon-php-plain colored" onmouseover="titlePHP();" onmouseout="titleOver();"></i>   
+                    <i id="t-asp" class="devicon-dot-net-plain-wordmark colored" onmouseover="titleASP();" onmouseout="titleOver();"></i>                
+                </div>
+
+                <div class="skills-box">
+                    <p class="skills-title">DataBases</p>
+                    <i id="t-mysql" class="devicon-mysql-plain colored" onmouseover="titleMySQL();" onmouseout="titleOver();"></i>
+                    <i id="t-sqlserver" class="devicon-microsoftsqlserver-plain colored" onmouseover="titleSqlServer();" onmouseout="titleOver();"></i>                 
+                </div>
+
+                <div class="skills-box">
+                    <p class="skills-title">Front-end Frameworks</p>
+                    <i id="t-bootstrap" class="devicon-bootstrap-plain colored" onmouseover="titleBootstrap();" onmouseout="titleOver();"></i>
+                    <i id="t-angular" class="devicon-angularjs-plain colored" onmouseover="titleAngular();" onmouseout="titleOver();"></i>  
+                    <i id="t-jquery" class="devicon-jquery-plain-wordmark colored" onmouseover="titleJquery();" onmouseout="titleOver();"></i>                 
+                </div>
+
+                
+            </div>
+        </section>
+    </main>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!--ION ICONS-->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
