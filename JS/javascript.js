@@ -5,6 +5,7 @@ function titleOver (){
     document.getElementById('t-js').innerText="";
     document.getElementById('t-php').innerText="";
     document.getElementById('t-asp').innerText="";
+    document.getElementById('t-node').innerText="";
     document.getElementById('t-mysql').innerText="";
     document.getElementById('t-sqlserver').innerText="";
     document.getElementById('t-bootstrap').innerText="";
@@ -31,7 +32,11 @@ function titlePHP () {
 }
 
 function titleASP () {
-    document.getElementById('t-asp').innerText=".Net";
+    document.getElementById('t-asp').innerText="Asp.Net";
+}
+
+function titleNode () {
+    document.getElementById('t-node').innerText="NodeJs";
 }
 
 function titleMySQL () {
