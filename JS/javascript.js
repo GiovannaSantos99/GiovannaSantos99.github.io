@@ -3,8 +3,8 @@ function titleOver (){
     document.getElementById('t-html').innerText="";
     document.getElementById('t-css').innerText="";
     document.getElementById('t-js').innerText="";
-    document.getElementById('t-php').innerText="";
     document.getElementById('t-asp').innerText="";
+    document.getElementById('t-php').innerText="";    
     document.getElementById('t-node').innerText="";
     document.getElementById('t-mysql').innerText="";
     document.getElementById('t-sqlserver').innerText="";
@@ -27,16 +27,17 @@ function titleJS() {
     document.getElementById('t-js').innerText="JavaScript";
 }
 
-function titlePHP () {
-    document.getElementById('t-php').innerText="PHP";
+
+function titleNode () {
+    document.getElementById('t-node').innerText="NodeJs";
 }
 
 function titleASP () {
     document.getElementById('t-asp').innerText="Asp.Net";
 }
 
-function titleNode () {
-    document.getElementById('t-node').innerText="NodeJs";
+function titlePHP () {
+    document.getElementById('t-php').innerText="PHP";
 }
 
 function titleMySQL () {
